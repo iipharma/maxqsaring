@@ -75,54 +75,48 @@ class FeatureBase(Enum):
     F10K2 = 'morganfp_featureCounts_rdkit_rad2'
     F10K3 = 'morganfp_featureCounts_rdkit_rad3'
 
-    # F11A1  = 'pretrain_gin_supervised_contextpred'
-    # F11A2  = 'pretrain_gin_supervised_edgepred'
-    # F11A3  = 'pretrain_gin_supervised_infomax'
-    # F11A4  = 'pretrain_gin_supervised_masking'
-    # F11A5  = 'pretrain_gin_supervised_edgepred_LogD'   # pretrain_gin_supervised_edgepred_Lipophilicity
-    # F11A6  = 'pretrain_gin_supervised_masking_LogD'
-    # F11A7  = 'pretrain_gin_supervised_contextpred_LogD'
-    # F11A8  = 'pretrain_gin_supervised_infomax_LogD'
-    # F11A9  = 'pretrain_gin_supervised_edgepred_ESOL'
-    # F11A10 = 'pretrain_gin_supervised_edgepred_FreeSolv'
-    # F11A11 = 'pretrain_gin_supervised_edgepred_LogpNew' # pretrain_gin_supervised_edgepred_LogpNew
-    # F11A12 = 'pretrain_gin_supervised_edgepred_RTtime'   #pretrain_gin_supervised_edgepred_RetentionTime
-    #
-    # F11B1  = 'pretrain_chemprop_supervised_scaffold_LogD'  # pretrain_chemprop_supervised_scaffold_explipo
-    # F11B2  = 'pretrain_chemprop_supervised_random_LogD'   #pretrain_chemprop_supervised_random_
-    # F11B3  = 'pretrain_chemprop_supervised_scaffold_LogDrescoss'
-    # F11B4  = 'pretrain_chemprop_supervised_random_LogDrescoss'
-    # # F11B5  = 'pretrain_chemprop_supervised_scaffold_cyp2c9sub'
-    # F11B6  = 'pretrain_chemprop_supervised_scaffold_bioav'
-    # F11B7  = 'pretrain_chemprop_supervised_scaffold_bbbreg'
-    # F11B8  = 'pretrain_chemprop_supervised_scaffold_ames'
-    # F11B9  = 'pretrain_chemprop_supervised_random_RTtime'
-    # F11B10 = 'pretrain_chemprop_supervised_random_pka'
-    # F11B11 = 'pretrain_chemprop_supervised_random_LogP'
-    # F11B12 = 'pretrain_chemprop_supervised_scaffold_LogP'
-    #
-    # F11B13 = 'pretrain_chemprop_supervised_random_ESOL'
-    # F11B14 = 'pretrain_chemprop_supervised_scaffold_hepg2'
-    # F11B15 = 'pretrain_chemprop_supervised_scaffold_hepg2_part'
-    # F11B16 = 'pretrain_chemprop_supervised_scaffold_hepg2class'
-    # F11B17 = 'pretrain_chemprop_supervised_scaffold_auxbbb'
-    # F11B18 = 'pretrain_chemprop_supervised_scaffold_bbbclass'
-    # F11B19 = 'pretrain_chemprop_supervised_scaffold_herg_clean'
-    #
-    #
-    # F11C1 = 'pretrain_chemprop_supervised_scaffold_ld50'
-    # F11C2 = 'pretrain_chemprop_supervised_scaffold_halflife'
-    #
-    # F11D1 = 'pretrain_grover_base'
-    # F11D2 = 'pretrain_grover_large'
-    #
-    # # F11E1 = 'pretrain_gemv1_class'
-    # # F11E2 = 'pretrain_gemv1_regr'
-    #
-    # F11F1 = 'pretrain_kBert_base'
-    # F11F2 = 'pretrain_kBert_wcl'
-    # F11F3 = 'pretrain_kBert_chiral'
-    # F11F4 = 'pretrain_kBert_chiral_rs'
+    F11A1  = 'pretrain_gin_supervised_contextpred'
+    F11A2  = 'pretrain_gin_supervised_edgepred'
+    F11A3  = 'pretrain_gin_supervised_infomax'
+    F11A4  = 'pretrain_gin_supervised_masking'
+    F11A5  = 'pretrain_gin_supervised_edgepred_LogD'   # pretrain_gin_supervised_edgepred_Lipophilicity
+    F11A6  = 'pretrain_gin_supervised_masking_LogD'
+    F11A7  = 'pretrain_gin_supervised_contextpred_LogD'
+    F11A8  = 'pretrain_gin_supervised_infomax_LogD'
+    F11A9  = 'pretrain_gin_supervised_edgepred_ESOL'
+    F11A10 = 'pretrain_gin_supervised_edgepred_FreeSolv'
+    F11A11 = 'pretrain_gin_supervised_edgepred_LogpNew' # pretrain_gin_supervised_edgepred_LogpNew
+    F11A12 = 'pretrain_gin_supervised_edgepred_RTtime'   #pretrain_gin_supervised_edgepred_RetentionTime
+
+    F11B1  = 'pretrain_chemprop_supervised_scaffold_LogD'  # pretrain_chemprop_supervised_scaffold_explipo
+    F11B2  = 'pretrain_chemprop_supervised_random_LogD'   #pretrain_chemprop_supervised_random_
+    F11B3  = 'pretrain_chemprop_supervised_scaffold_LogDrescoss'
+    F11B4  = 'pretrain_chemprop_supervised_random_LogDrescoss'
+    # F11B5  = 'pretrain_chemprop_supervised_scaffold_cyp2c9sub'
+    F11B6  = 'pretrain_chemprop_supervised_scaffold_bioav'
+    F11B7  = 'pretrain_chemprop_supervised_scaffold_bbbreg'
+    F11B8  = 'pretrain_chemprop_supervised_scaffold_ames'
+    F11B9  = 'pretrain_chemprop_supervised_random_RTtime'
+    F11B10 = 'pretrain_chemprop_supervised_random_pka'
+    F11B11 = 'pretrain_chemprop_supervised_random_LogP'
+    F11B12 = 'pretrain_chemprop_supervised_scaffold_LogP'
+    F11B13 = 'pretrain_chemprop_supervised_random_ESOL'
+    F11B14 = 'pretrain_chemprop_supervised_scaffold_hepg2'
+    F11B15 = 'pretrain_chemprop_supervised_scaffold_hepg2_part'
+    F11B16 = 'pretrain_chemprop_supervised_scaffold_hepg2class'
+    F11B17 = 'pretrain_chemprop_supervised_scaffold_auxbbb'
+    F11B18 = 'pretrain_chemprop_supervised_scaffold_bbbclass'
+    F11B19 = 'pretrain_chemprop_supervised_scaffold_herg_clean'
+    F11C1 = 'pretrain_chemprop_supervised_scaffold_ld50'
+    F11C2 = 'pretrain_chemprop_supervised_scaffold_halflife'
+    F11D1 = 'pretrain_grover_base'
+    F11D2 = 'pretrain_grover_large'
+    F11E1 = 'pretrain_gemv1_class'
+    F11E2 = 'pretrain_gemv1_regr'
+    F11F1 = 'pretrain_kBert_base'
+    F11F2 = 'pretrain_kBert_wcl'
+    F11F3 = 'pretrain_kBert_chiral'
+    F11F4 = 'pretrain_kBert_chiral_rs'
 
 
  

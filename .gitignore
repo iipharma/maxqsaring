@@ -14,7 +14,6 @@ tmp*
 temp*
 output
 *.ipynb
-external
 images
 *.[c,t]sv
 *.tab
